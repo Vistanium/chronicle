@@ -182,7 +182,7 @@ def generate_bucket_context(query, entries, dates, history=None):
     Analyze the {len(entries)} articles from {dates} regarding "{query}".
 
     REQUIREMENTS:
-    1. TITLE: Must be distinct from previous titles. Focus on the *specific* event or shift in this period.
+    1. TITLE: Must be distinct from previous titles. Focus on the *specific* event or shift in this period. Do not include dates or years in the title — the UI already shows the date range.
     2. SUMMARY: A cohesive explanation of what happened *new* in this window compared to the past.
 
     INSTRUCTIONS:

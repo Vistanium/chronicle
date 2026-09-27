@@ -172,7 +172,7 @@ def fake_search_results() -> list:
             "image_path": "2014/April 2014/Vanguard April 12_2014_Pg 1.jpeg",
             "topics": "Ballot box snatching, Political thuggery, INEC officials threatened, Gun violence, Election cancellation calls",
             "publication": "Vanguard",
-            "publication_date": "2014/04/12",
+            "publication_date": "2014-04-12",
             "page": "1",
             "tags": "breaking news, rivers state"
         },
@@ -185,7 +185,7 @@ def fake_search_results() -> list:
             "image_path": "2014/March 2014/Daily Trust March 29_2014_Pg 2.jpeg",
             "topics": "Terrorist attacks, Election workers killed, Voter suppression, Military deployment, IDP voting rights",
             "publication": "Daily Trust",
-            "publication_date": "2014/03/29",
+            "publication_date": "2014-03-29",
             "page": "2",
             "tags": "terrorism, northeast"
         },
@@ -199,7 +199,7 @@ def fake_search_results() -> list:
             "image_path": "2015/April 2015/The Guardian April 14_2015_Pg 1.jpeg",
             "topics": "Ethnic violence, Religious clashes, Curfew imposed, Military intervention, Arson attacks",
             "publication": "The Guardian",
-            "publication_date": "2015/04/14",
+            "publication_date": "2015-04-14",
             "page": "1",
             "tags": "crisis, kaduna"
         },
@@ -212,7 +212,7 @@ def fake_search_results() -> list:
             "image_path": "2015/March 2015/Punch March 28_2015_Pg 1.jpeg",
             "topics": "Technology failure, Voter disenfranchisement, Election postponement, Vote buying arrests, Logistical chaos",
             "publication": "Punch",
-            "publication_date": "2015/03/28",
+            "publication_date": "2015-03-28",
             "page": "1",
             "tags": "presidential election, inec"
         },
@@ -226,7 +226,7 @@ def fake_search_results() -> list:
             "image_path": "2016/September 2016/ThisDay September 29_2016_Pg 1.jpeg",
             "topics": "Armed thuggery, INEC workers killed, Journalist attacks, Security failure, International condemnation",
             "publication": "ThisDay",
-            "publication_date": "2016/09/29",
+            "publication_date": "2016-09-29",
             "page": "1",
             "tags": "edo state, violence"
         },
@@ -239,7 +239,7 @@ def fake_search_results() -> list:
             "image_path": "2016/December 2016/The Nation December 03_2016_Pg 2.jpeg",
             "topics": "Arson attacks, Polling units destroyed, Inter-party violence, Rigging allegations, Security complicity",
             "publication": "The Nation",
-            "publication_date": "2016/12/03",
+            "publication_date": "2016-12-03",
             "page": "2",
             "tags": "kogi state, local government"
         },
@@ -253,7 +253,7 @@ def fake_search_results() -> list:
             "image_path": "2017/November 2017/Vanguard November 18_2017_Pg 1.jpeg",
             "topics": "Separatist threats, INEC infrastructure attacks, Security personnel killed, Voter intimidation, Election boycott",
             "publication": "Vanguard",
-            "publication_date": "2017/11/18",
+            "publication_date": "2017-11-18",
             "page": "1",
             "tags": "anambra, ipob"
         },
@@ -266,7 +266,7 @@ def fake_search_results() -> list:
             "image_path": "2017/March 2017/The Guardian March 20_2017_Pg 2.jpeg",
             "topics": "Cult group violence, Military bias allegations, Ballot box snatching, Observer condemnation, Democratic failures",
             "publication": "The Guardian",
-            "publication_date": "2017/03/20",
+            "publication_date": "2017-03-20",
             "page": "2",
             "tags": "rivers state, military"
         },
@@ -280,7 +280,7 @@ def fake_search_results() -> list:
             "image_path": "2018/July 2018/Punch July 14_2018_Pg 1.jpeg",
             "topics": "Vote buying, Electoral corruption, Cash distribution, Party agent arrests, Democratic credibility crisis",
             "publication": "Punch",
-            "publication_date": "2018/07/14",
+            "publication_date": "2018-07-14",
             "page": "1",
             "tags": "ekiti, corruption"
         },
@@ -293,7 +293,7 @@ def fake_search_results() -> list:
             "image_path": "2018/September 2018/ThisDay September 23_2018_Pg 1.jpeg",
             "topics": "Inconclusive election, INEC officials held hostage, Inter-party clashes, Collation center violence, Rerun controversy",
             "publication": "ThisDay",
-            "publication_date": "2018/09/23",
+            "publication_date": "2018-09-23",
             "page": "1",
             "tags": "osun, crisis"
         },
@@ -307,7 +307,7 @@ def fake_search_results() -> list:
             "image_path": "2019/February 2019/Daily Trust February 24_2019_Pg 1.jpeg",
             "topics": "Multiple deaths, Ballot snatching, Voter intimidation, Security failures, Results rejection",
             "publication": "Daily Trust",
-            "publication_date": "2019/02/24",
+            "publication_date": "2019-02-24",
             "page": "1",
             "tags": "presidential, violence"
         },
@@ -320,7 +320,7 @@ def fake_search_results() -> list:
             "image_path": "2019/March 2019/The Nation March 10_2019_Pg 2.jpeg",
             "topics": "Underage voting, Armed thuggery, Opposition rejection, Photographic evidence, Voter registration fraud",
             "publication": "The Nation",
-            "publication_date": "2019/03/10",
+            "publication_date": "2019-03-10",
             "page": "2",
             "tags": "kano, fraud"
         },
@@ -334,7 +334,7 @@ def fake_search_results() -> list:
             "image_path": "2020/September 2020/Vanguard September 19_2020_Pg 1.jpeg",
             "topics": "Heavy security presence, Thug violence, Materials destruction, Journalist harassment, Election petitions",
             "publication": "Vanguard",
-            "publication_date": "2020/09/19",
+            "publication_date": "2020-09-19",
             "page": "1",
             "tags": "edo, security"
         },
@@ -347,7 +347,7 @@ def fake_search_results() -> list:
             "image_path": "2020/October 2020/Punch October 10_2020_Pg 1.jpeg",
             "topics": "Industrial-scale vote buying, Cash-for-votes, Viral videos, Minimal enforcement, Electoral reform calls",
             "publication": "Punch",
-            "publication_date": "2020/10/10",
+            "publication_date": "2020-10-10",
             "page": "1",
             "tags": "ondo, corruption"
         },
@@ -361,7 +361,7 @@ def fake_search_results() -> list:
             "image_path": "2021/November 2021/ThisDay November 06_2021_Pg 1.jpeg",
             "topics": "Sit-at-home order, Extremely low turnout, Separatist intimidation, Zero votes recorded, Legitimacy questions",
             "publication": "ThisDay",
-            "publication_date": "2021/11/06",
+            "publication_date": "2021-11-06",
             "page": "1",
             "tags": "anambra, ipob"
         },
@@ -374,7 +374,7 @@ def fake_search_results() -> list:
             "image_path": "2021/February 2021/Daily Trust February 13_2021_Pg 2.jpeg",
             "topics": "Thug attacks, Polling units burned, Ballot box snatching, Weapon seizures, Election cancellation",
             "publication": "Daily Trust",
-            "publication_date": "2021/02/13",
+            "publication_date": "2021-02-13",
             "page": "2",
             "tags": "fct, violence"
         },
@@ -388,7 +388,7 @@ def fake_search_results() -> list:
             "image_path": "2022/June 2022/The Guardian June 18_2022_Pg 1.jpeg",
             "topics": "Brazen vote buying, Cash distribution, Token arrests, Systemic corruption, Reform frustration",
             "publication": "The Guardian",
-            "publication_date": "2022/06/18",
+            "publication_date": "2022-06-18",
             "page": "1",
             "tags": "ekiti, vote buying"
         },
@@ -401,7 +401,7 @@ def fake_search_results() -> list:
             "image_path": "2022/July 2022/The Nation July 16_2022_Pg 1.jpeg",
             "topics": "Ballot box theft, INEC officials assaulted, Coordinated violence, Election declared inconclusive, Supplementary poll",
             "publication": "The Nation",
-            "publication_date": "2022/07/16",
+            "publication_date": "2022-07-16",
             "page": "1",
             "tags": "osun, violence"
         },
@@ -415,7 +415,7 @@ def fake_search_results() -> list:
             "image_path": "2023/February 2023/Punch February 25_2023_Pg 1.jpeg",
             "topics": "Technology failure, Mass disenfranchisement, Targeted political violence, Ballot theft, Results disputed",
             "publication": "Punch",
-            "publication_date": "2023/02/25",
+            "publication_date": "2023-02-25",
             "page": "1",
             "tags": "presidential, bvas"
         },
@@ -428,7 +428,7 @@ def fake_search_results() -> list:
             "image_path": "2023/March 2023/Vanguard March 18_2023_Pg 1.jpeg",
             "topics": "REC partisanship allegations, Collation suspended, Inter-party violence, Result manipulation, INEC credibility crisis",
             "publication": "Vanguard",
-            "publication_date": "2023/03/18",
+            "publication_date": "2023-03-18",
             "page": "1",
             "tags": "gubernatorial, crisis"
         },

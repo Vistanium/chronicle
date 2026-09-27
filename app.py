@@ -42,7 +42,7 @@ class ChronicleRequest(BaseModel):
 
     model_config = {
         "json_schema_extra": {
-            "examples": [{"query": "Election crises and violence", "start_date": "2014/01/01", "end_date": "2023/12/31"}]
+            "examples": [{"query": "Election crises and violence", "start_date": "2014-01-01", "end_date": "2023-12-31"}]
         }
     }
 
@@ -52,9 +52,9 @@ class ChronicleRequest(BaseModel):
         if not v:
             return v
         try:
-            datetime.strptime(v, "%Y/%m/%d")
+            datetime.strptime(v, "%Y-%m-%d")
         except ValueError:
-            raise ValueError("Date must be in YYYY/MM/DD format")
+            raise ValueError("Date must be in YYYY-MM-DD format")
         return v
     
     

@@ -15,7 +15,7 @@ class Date:
     year: int
 
     def __str__(self):
-        return f"{self.year}/{self.month:02d}/{self.day:02d}"
+        return f"{self.year}-{self.month:02d}-{self.day:02d}"
 
     def __lt__(self, other):
         return (self.year, self.month, self.day) < (other.year, other.month, other.day)

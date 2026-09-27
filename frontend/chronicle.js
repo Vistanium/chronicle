@@ -111,7 +111,7 @@ function apiClusterToShape(data) {
 
   const sources = (data.entries ?? []).map((e, i) => ({
     pub:     e.publication    ?? "",
-    date:    e.publication_date?.replace(/\//g, " ") ?? "",
+    date:    e.publication_date?.replace(/-/g, " ") ?? "",
     page:    `Pg ${e.page ?? "?"}`,
     title:   e.filename?.split("/").pop()?.replace(/\.tif$/, "") ?? e.filename ?? "",
     summary: e.summary        ?? "",
@@ -714,14 +714,13 @@ async function startSearch(query, startDate = "", endDate = "", publication = ""
 
   try {
     /* 1. POST /chronicle → job_id */
-    const toApiDate = d => (d ? d.replace(/-/g, "/") : "");
     const initRes = await fetch(`${base}/chronicle`, {
       method:  "POST",
       headers: { "Content-Type": "application/json" },
       body:    JSON.stringify({
         query,
-        start_date: toApiDate(startDate),
-        end_date:   toApiDate(endDate),
+        start_date: startDate,
+        end_date:   endDate,
         publication,
       }),
     });

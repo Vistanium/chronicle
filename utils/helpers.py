@@ -6,7 +6,7 @@ from utils.log import setup_logging
 logger = setup_logging()
 
 def convertToDate(date_string):
-   date_split = date_string.split("/")
+   date_split = date_string.split("-")
    return Date(
        day   = int(date_split[2]),
        month = int(date_split[1]),
