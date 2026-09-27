@@ -84,7 +84,7 @@ class QueryCache:
 
 
     ### READ API
-    def get(self, query: str, start_date, end_date) -> list | None:
+    def get(self, query: str, start_date, end_date, publication) -> list | None:
         """
         Returns a copy of the cached event list, or None on miss, expiry or Redis failure.
         TTL expiry is handled automatically by Redis.
@@ -93,7 +93,7 @@ class QueryCache:
             return None
         
         try:
-            key   = self._key(query, start_date, end_date)
+            key   = self._key(query, start_date, end_date, publication)
             value = self._client.get(key)
             if value is None:
                 logger.info(f"Cache: MISS for '{query}'")

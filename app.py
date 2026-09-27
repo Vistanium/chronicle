@@ -83,7 +83,7 @@ def start_chronicle(request: ChronicleRequest):
 
     # try reading results from cache
     if request.cache:
-        cached_events = cache.get(request.query, request.start_date, request.end_date)
+        cached_events = cache.get(request.query, request.start_date, request.end_date, request.publication)
         if cached_events:
             logger.info(f"Cache HIT — replaying into job {job_id}")
             _replay_cached_events(job_id, cached_events)
